@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffectExample from './components/UseEffectExample';
+import UserStorage from './components/UserStorage';
 
 function App() {
   return (
     <div className="App">
-       <UseEffectExample/>
+       <UserStorage/>
     </div>
   );
 }
