@@ -9,7 +9,7 @@ export default function UserPicker() {
             const data = await response.json();
             setUsers(data);
         }
-        setTimeout(fetchData, 5000);
+        fetchData();
     }, []);
 
     if (users.length === 0) {
