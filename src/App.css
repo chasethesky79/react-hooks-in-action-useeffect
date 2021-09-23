@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.icon-loading {
+  animation: spin 1.5s linear infinite;
+}
+
+.user-picker {
+  text-align: center;
+  margin-top: 20px;
+}
